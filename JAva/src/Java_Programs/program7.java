@@ -15,5 +15,9 @@ public class program7 {
         System.out.println(age);
         System.out.println(newage);
 
+        int oldage  = 20;
+//        System.out.println(oldage++);
+//        System.out.println(++oldage);
+        System.out.println(oldage++ + ++oldage); // oldage++ -> 20 then oldage = oldage+1-> 21 so ++oldage -> 22 so final ans = 20+22;
     }
 }
