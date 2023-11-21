@@ -1,6 +1,5 @@
 package Java_Programs;
 // Assignment Operator
-
 public class program6 {
     public static void main(String args[]){
         int income = 40000;
